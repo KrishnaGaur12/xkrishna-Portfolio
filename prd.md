@@ -1,7 +1,7 @@
 # Portfolio PRD
 
 ## Goal
-Build a simple personal portfolio website for Krishna Gaur to showcase profile, projects, experience, and achievements.
+Build a simple personal portfolio website to showcase profile, projects, experience, and achievements.
 
 ## Live Site
 https://xkrishnagaur.netlify.app

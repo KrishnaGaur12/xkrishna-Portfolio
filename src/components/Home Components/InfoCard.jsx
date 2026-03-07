@@ -48,7 +48,7 @@ const InfoCard = () => {
                 </div>
               </div>
 
-              <p className="px-4 pt-2 text-base leading-relaxed text-text-secondary sm:px-5 sm:text-lg">
+              <p className="px-4 pt-2.5 text-lg leading-relaxed text-text-secondary sm:px-5 sm:text-xl">
                 Aspiring <FlipWords words={words} className="mx-1" /> 
                 
               </p>
