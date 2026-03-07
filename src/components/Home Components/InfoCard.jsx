@@ -12,7 +12,7 @@ const InfoCard = () => {
             <div className="flex items-center border-r border-border p-3 sm:p-4">
               <div className="group relative">
                 <img
-                  src="images/pfp.jpg"
+                  src="/images/pfp.jpg"
                   alt="Krishna Gaur"
                   className="h-24 w-24 shrink-0 rounded-full border border-border object-cover sm:h-36 sm:w-36"
                 />

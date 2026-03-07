@@ -7,11 +7,6 @@ import {
   Mail,
   MapPin,
 } from "lucide-react";
-import xLogo from "../../../images/x.jpg";
-import githubLogo from "../../../images/github.jpg";
-import linkedinLogo from "../../../images/linkedin.jpg";
-import dailyDevLogo from "../../../images/dailydotdev.webp";
-import discordLogo from "../../../images/discord.jpg";
 
 const profileDetails = [
   {
@@ -49,32 +44,32 @@ const socialLinks = [
   {
     label: "X",
     href: "https://x.com/2m_next",
-    logo: xLogo,
+    logo: "/images/x.jpg",
   },
   {
     label: "GitHub",
     href: "https://github.com/KrishnaGaur12",
-    logo: githubLogo,
+    logo: "/images/github.jpg",
   },
   {
     label: "LinkedIn",
     href: "https://www.linkedin.com/in/gaurkrishna/",
-    logo: linkedinLogo,
+    logo: "/images/linkedin.jpg",
   },
   {
     label: "daily.dev",
     href: "https://app.daily.dev/xkrishna",
-    logo: dailyDevLogo,
+    logo: "/images/dailydotdev.webp",
   },
   {
     label: "Discord",
     href: "https://discord.com",
-    logo: discordLogo,
+    logo: "/images/discord.jpg",
   },
   {
     label: "DSA Portfolio",
     href: "https://codolio.com/profile/Krishna15",
-    logo: "images/codolio.jpg",
+    logo: "/images/codolio.jpg",
   },
 ];
 
