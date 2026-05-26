@@ -1,25 +1,18 @@
-# Krishna Gaur Portfolio
+# Krishna Gaur — Portfolio
 
-Live: https://xkrishnagaur.netlify.app
+Simple personal portfolio built with React, Vite and Tailwind CSS.
 
-## Stack
-- React
-- Tailwind CSS
-- Vite
-- React Router
-- Framer Motion
+Tech: React, Vite, Tailwind CSS, Framer Motion, React Router
 
-## Run Locally
+Quick start:
+
 ```bash
 npm install
 npm run dev
 ```
 
-## Build
+Build:
+
 ```bash
 npm run build
 ```
-
-## Content Update
-- Projects: `src/data/projectsData.js`
-- Home sections: `src/components/Home Components/`

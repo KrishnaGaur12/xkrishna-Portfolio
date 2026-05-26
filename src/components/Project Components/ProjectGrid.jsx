@@ -12,7 +12,7 @@ const ProjectGrid = ({ projects }) => {
       {rows.map((row, rowIndex) => (
         <div key={rowIndex} className="w-full">
           {/* Double horizontal border with gap */}
-          <div className="flex w-full flex-col gap-[16px]">
+          <div className="flex w-full flex-col gap-4">
             <div className="h-px w-full bg-border"></div>
             <div className="h-px w-full bg-border"></div>
           </div>

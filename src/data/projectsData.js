@@ -2,205 +2,187 @@
 // Edit this file to update projects across all pages
 
 export const projectsData = [
-        {
-    id: 1,
-    slug: "jansahayak-ai",
-    title: "JanSahayak AI",
-    description:
-        "A voice-first AI platform that helps citizens access government schemes and report civic issues through natural speech.",
-    status: "building",
-    accent: "from-blue-200 via-purple-200 to-pink-200",
-    timeline: "2 weeks",
-    tech: "Full Stack + AI",
-    role: "Full Stack & AI Developer",
-    technologies: [
-        {
-            name: "React",
-            icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-        },
-        {
-            name: "Node.js",
-            icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
-        },
-        {
-            name: "Amazon Bedrock",
-            icon: "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg",
-        },
-        {
-            name: "Amazon Transcribe",
-            icon: "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg",
-        },
-        {
-            name: "Amazon Polly",
-            icon: "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg",
-        },
-        {
-            name: "AWS Lambda",
-            icon: "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg",
-        },
-        {
-            name: "Amazon S3",
-            icon: "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg",
-        },
-    ],
-    website: "",
-    github: "https://github.com/KrishnaGaur12/JanSahayak-AI",
-    markdownUrl: "",
-    image: "/images/jans.png",
-},
     {
-    id: 2,
-    slug: "bharatcare-ai",
-    title: "BharatCare – AI-Powered Healthcare Assistant",
-    description:
-        "BharatCare is an AI-powered healthcare platform that delivers instant symptom analysis, smart care guidance, nearby hospital discovery, and 24/7 assistance — improving healthcare accessibility in India.",
-    status: "Live MVP",
-    accent: "from-blue-100 via-sky-200 to-indigo-200",
-    timeline: "Hackathon Project – 2026",
-    tech: "Full Stack",
-    role: "Lead Developer & System Architect",
-    technologies: [
-        {
-            name: "React JS",
-            icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-        },
-        {
-            name: "Tailwind CSS",
-            icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
-        },
-        {
-            name: "JavaScript",
-            icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
-        },
-        {
-            name: "Python",
-            icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
-        },
-        {
-            name: "Leaflet.js",
-            icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/leaflet/leaflet-original.svg",
-        },
-        {
-            name: "OpenStreetMap",
-            icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/openstreetmap/openstreetmap-original.svg",
-        },
-        {
-            name: "Google Directions API",
-            icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg",
-        }
-    ],
-    website: null, // add demo link if deployed
-    github: "https://github.com/KrishnaGaur12/BharatCare",
-    markdownUrl: null,
-    image: "/images/bharatcare.png",
-},
+        id: 1,
+        slug: "silver-link",
+        title: "Silver Link",
+        description:
+            "Web application designed to help retirees stay active, socially connected, financially independent, and healthy.",
+        status: "operational",
+        accent: "from-gray-200 via-slate-200 to-zinc-200",
+        timeline: "1 week",
+        tech: "Full Stack",
+        role: "Developer",
+        technologies: [],
+        highlights: [
+            "Matches retirees with job opportunities suited to their skills and physical abilities.",
+            "Lets employers post job listings and review applications efficiently.",
+            "Supports groups, games, appointment management, chatbot interaction, dietary guidance, and a BMI calculator.",
+        ],
+        website: "https://silver-link.vercel.app",
+        github: "",
+        markdownUrl: "",
+        image: "/images/silver-link.png",
+    },
+
+    {
+        id: 2,
+        slug: "hiresensie",
+        title: "HireSensie",
+        description:
+            "AI-powered mock interview platform that generates custom questions from a job role, description, and experience level.",
+        status: "operational",
+        accent: "from-blue-200 via-indigo-200 to-cyan-200",
+        timeline: "2 weeks",
+        tech: "Full Stack + AI",
+        role: "Full Stack Developer",
+        technologies: [],
+        highlights: [
+            "Generates role-specific interview questions using the Google Gemini API.",
+            "Includes real-time speech-to-text transcription and automated answer evaluation.",
+            "Stores interview sessions, responses, and feedback history with PostgreSQL and Drizzle ORM.",
+            "Uses Clerk for authentication, protected routes, and social login support.",
+        ],
+        website: "https://hiresensie.netlify.app",
+        github: "https://github.com/KrishnaGaur12/HireSensie",
+        markdownUrl: "",
+        image: "/images/hiresensie.png",
+    },
+
     {
         id: 3,
-        slug: "studio-minimal-portfolio",
-        title: "Studio Minimal Portfolio",
+        slug: "trivia-rest-api",
+        title: "Trivia REST API",
         description:
-            "Modern portfolio website with GSAP animations and responsive design",
+            "Trivia REST API built with Go Fiber and PostgreSQL for managing and serving trivia content.",
         status: "operational",
-        accent: "from-teal-200 via-sky-200 to-violet-200",
+        accent: "from-green-200 via-emerald-200 to-teal-200",
         timeline: "1 week",
-        tech: "Frontend",
-        role: "Developer",
-        technologies: [
-            {
-                name: "React",
-                icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-            },
-            {
-                name: "Vite",
-                icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitejs/vitejs-original.svg",
-            },
-            {
-                name: "GSAP",
-                icon: "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/greensock.svg",
-            },
-            {
-                name: "Tailwind CSS",
-                icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
-            },
+        tech: "Backend",
+        role: "Backend Developer",
+        technologies: [],
+        highlights: [
+            "Developed the REST API using the Go Fiber framework.",
+            "Integrated PostgreSQL for persistent storage of trivia questions.",
+            "Containerized the application with Docker for easier deployment.",
         ],
-        website: "https://studio-minimal.vercel.app/",
-        github: "https://github.com/TakshPatel02/Studio-Minimal",
-        markdownUrl:
-            "https://res.cloudinary.com/portfolioblog/raw/upload/v1771481946/studioMinimal_bmoixj.md",
-        image: "https://res.cloudinary.com/portfolioblog/image/upload/v1771493903/studio-minimal_gxzkki.png",
+        website: "",
+        github: "",
+        markdownUrl: "",
+        image: "/images/trivia.png",
     },
+
     {
         id: 4,
-        slug: "furnishhub-furniture-ecommerce",
-        title: "FurnishHub - Modern Furniture Showcase",
+        slug: "e-rakshasetu",
+        title: "e-RakshaSetu",
         description:
-            "A responsive furniture e-commerce platform featuring categorized collections, new arrivals, and trending items with an elegant user interface.",
+            "Smart tourist safety system that combines machine learning, blockchain, geofencing, Flutter, and MongoDB for real-time incident response.",
         status: "operational",
-        accent: "from-emerald-200 via-lime-200 to-amber-200",
-        timeline: "1 week",
-        tech: "Frontend",
-        role: "Frontend Developer",
+        accent: "from-orange-200 via-red-200 to-pink-200",
+        timeline: "Hackathon",
+        tech: "Full Stack",
+        role: "Developer",
+        technologies: [],
+        highlights: [
+            "Fires real-time SOS alerts the moment a user crosses a geofence boundary.",
+            "Anchors incident records on-chain for tamper-proof logging and E-FIR automation.",
+            "Designed to stay reliable under heavy concurrent load with distributed integration coverage.",
+        ],
+        website: "https://e-rakshasetu.netlify.app",
+        github: "https://github.com/KrishnaGaur12/e-Raksha-Setu",
+        markdownUrl: "",
+        image: "/images/e-rakshasetu.png",
+    },
+
+    {
+        id: 5,
+        slug: "jansahayak-ai",
+        title: "JanSahayak AI",
+        description:
+            "A voice-first AI platform that helps citizens access government schemes and report civic issues through natural speech.",
+        status: "building",
+        accent: "from-blue-200 via-purple-200 to-pink-200",
+        timeline: "2 weeks",
+        tech: "Full Stack + AI",
+        role: "Full Stack & AI Developer",
         technologies: [
             {
                 name: "React",
                 icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
             },
             {
-                name: "Vite",
-                icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitejs/vitejs-original.svg",
-            },
-            {
-                name: "JavaScript",
-                icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
-            },
-            {
-                name: "CSS3",
-                icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
-            },
-            {
-                name: "HTML5",
-                icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+                name: "Node.js",
+                icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
             },
         ],
-        website: "https://furnish-hub-coral.vercel.app/",
-        github: "https://github.com/TakshPatel02/Furnish-Hub",
-        markdownUrl:
-            "https://res.cloudinary.com/portfolioblog/raw/upload/v1771481946/FurnishHub_hqu07a.md",
-        image: "https://res.cloudinary.com/portfolioblog/image/upload/v1771520979/furnishhub1_sbwrwj.png",
+        website: "",
+        github: "https://github.com/KrishnaGaur12/JanSahayak-AI",
+        markdownUrl: "",
+        image: "public/images/jans.png",
     },
-    {
-        id: 5,
-        slug: "terminal-portfolio",
-        title: "Terminal Portfolio v3.1.0",
-        description:
-            "Interactive terminal-style portfolio with command-based navigation and smooth animations",
-        status: "operational",
-        accent: "from-green-300 via-emerald-300 to-teal-300",
-        timeline: "1 week",
-        tech: "Frontend",
-        role: "Frontend Developer",
-        technologies: [
-            {
-                name: "HTML5",
-                icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
-            },
-            {
-                name: "CSS3",
-                icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
-            },
-            {
-                name: "JavaScript",
-                icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
-            },
-        ],
-        website: "https://terminal-portfolio-nu-three.vercel.app",
-        github: "https://github.com/TakshPatel02/Terminal-Portfolio",
-        markdownUrl:
-            "https://res.cloudinary.com/portfolioblog/raw/upload/v1771481946/terminalPortfolio_igqdho.md",
-        image: "https://res.cloudinary.com/portfolioblog/image/upload/v1771493903/terminal-portfolio_twwndt.png",
-    },
+
     {
         id: 6,
+        slug: "bharatcare-ai",
+        title: "BharatCare – AI-Powered Healthcare Assistant",
+        description:
+            "BharatCare is an AI-powered healthcare platform that delivers instant symptom analysis, smart care guidance, nearby hospital discovery, and 24/7 assistance.",
+        status: "Live MVP",
+        accent: "from-blue-100 via-sky-200 to-indigo-200",
+        timeline: "Hackathon Project – 2026",
+        tech: "Full Stack",
+        role: "Lead Developer & System Architect",
+        technologies: [],
+        website: null,
+        github: "https://github.com/KrishnaGaur12/BharatCare",
+        markdownUrl: null,
+        image: "public/images/bharatcare.png",
+    },
+
+    {
+        id: 7,
+        slug: "10-days-ai-voice-agents",
+        title: "10 Days of AI Voice Agents",
+        description:
+            "AI voice agent experiments and automation workflows built over 10 days.",
+        status: "operational",
+        accent: "from-violet-200 via-fuchsia-200 to-pink-200",
+        timeline: "10 days",
+        tech: "AI",
+        role: "AI Developer",
+        technologies: [],
+        website: "",
+        github: "https://github.com/KrishnaGaur12/ten-days-of-voice-agents-2025",
+        markdownUrl: "",
+        image: "public/images/10daysai.png",
+    },
+
+    {
+        id: 8,
+        slug: "bytecrush",
+        title: "ByteCrush",
+        description:
+            "C++ file compression toolkit with Huffman, LZW, and RLE algorithms, parallelized for faster processing and backed by automated tests.",
+        status: "operational",
+        accent: "from-cyan-200 via-sky-200 to-blue-200",
+        timeline: "1 week",
+        tech: "Full Stack",
+        role: "Developer",
+        technologies: [],
+        highlights: [
+            "Built a multi-algorithm compressor from scratch with clean OOP design.",
+            "Parallelized the pipeline with multithreading for faster large-file compression.",
+            "Added a regression test suite for empty files, high-entropy data, and boundary cases.",
+        ],
+        website: "",
+        github: "https://github.com/KrishnaGaur12/ByteCrush---File-Compression-Toolkit",
+        markdownUrl: "",
+        image: "/images/bytecrush.png",
+    },
+
+    {
+        id: 9,
         slug: "gta-vi-parallax-landing",
         title: "GTA VI Parallax Landing Page",
         description:
@@ -219,23 +201,11 @@ export const projectsData = [
                 name: "Vite",
                 icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitejs/vitejs-original.svg",
             },
-            {
-                name: "GSAP",
-                icon: "https://img.shields.io/badge/-GSAP-88CE02?logo=javascript&logoColor=black&style=flat",
-            },
-            {
-                name: "Tailwind CSS",
-                icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
-            },
-            {
-                name: "JavaScript",
-                icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
-            },
         ],
         website: "https://gta6themeresume.vercel.app/",
-        github: "https://github.com/TakshPatel02/GTA-VI-Animated-Landing",
+        github: "https://github.com/KrishnaGaur12/GTA6styleResume",
         markdownUrl:
             "https://res.cloudinary.com/portfolioblog/raw/upload/v1771481946/gta_tx8jzx.md",
-        image: "/images/gta6theme.png",
+        image: "public/images/gta6theme.png",
     },
 ];

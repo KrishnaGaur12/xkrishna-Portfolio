@@ -35,7 +35,7 @@ const sideDetails = [
   },
   {
     icon: Link2,
-    label: "xkrishna.domain",
+    label: "xkrishnagaur",
   },
   
 ];
@@ -84,10 +84,10 @@ const DetailItem = ({ icon: Icon, label }) => (
 
 const AboutSection = ({ showSocialLinks = true }) => {
   return (
-    <section className="w-full border-b border-border">
+    <section className="w-full">
       <div className="mx-auto w-full max-w-4xl px-4 sm:px-6">
-        <div className="border-x border-border bg-bg-card">
-          <div className="grid grid-cols-1 gap-3 border-b border-border px-4 py-3 md:grid-cols-[1.6fr_1fr] md:gap-4 md:px-5 md:py-4">
+        <div className="bg-bg-card">
+          <div className="grid grid-cols-1 gap-3 px-4 py-3 md:grid-cols-[1.6fr_1fr] md:gap-4 md:px-5 md:py-4">
             <div className="space-y-2">
               {profileDetails.map((item) => (
                 <DetailItem key={item.label} icon={item.icon} label={item.label} />
@@ -110,7 +110,7 @@ const AboutSection = ({ showSocialLinks = true }) => {
                     href={item.href}
                     target="_blank"
                     rel="noreferrer"
-                    className="flex min-h-16 items-center justify-between gap-3 border-b border-border px-4 py-3 text-text-primary transition hover:bg-hover-bg sm:min-h-18 sm:py-3.5 md:nth-last-[-n+3]:border-b-0 md:border-r md:nth-[3n]:border-r-0 sm:nth-last-[-n+2]:border-b-0"
+                    className="flex min-h-16 items-center justify-between gap-3 px-4 py-3 text-text-primary transition hover:bg-hover-bg sm:min-h-18 sm:py-3.5"
                   >
                     <div className="flex items-center gap-3">
                       <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-bg-secondary p-1.5">

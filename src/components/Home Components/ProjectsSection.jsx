@@ -11,12 +11,16 @@ const ProjectCard = ({ project }) => (
   >
     <Link to={`/project/${project.slug}`}>
       <motion.div
-        className={`relative aspect-[16/9] overflow-hidden rounded-2xl bg-gradient-to-br ${project.accent}`}
+        className={`relative aspect-video overflow-hidden rounded-2xl bg-linear-to-br ${project.accent}`}
         whileHover={{ scale: 1.02 }}
         transition={{ duration: 0.3 }}
       >
-        <img src={project.image} alt={project.title} />
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(255,255,255,0.65)_0,_transparent_55%)]"></div>
+        <img
+          src={project.image}
+          alt={project.title}
+          className="absolute inset-0 h-full w-full object-cover object-center block"
+        />
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(255,255,255,0.65)_0,transparent_55%)]"></div>
         <div className="absolute bottom-4 left-4 rounded-xl bg-white/70 px-3 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-zinc-800">
           Preview
         </div>
@@ -133,7 +137,7 @@ const ProjectsSection = () => {
       {rows.map((row, rowIndex) => (
         <div key={rowIndex} className="w-full">
           {/* Double horizontal border with gap */}
-          <div className="flex w-full flex-col gap-[16px]">
+          <div className="flex w-full flex-col gap-4">
             <div className="h-px w-full bg-border"></div>
             <div className="h-px w-full bg-border"></div>
           </div>
@@ -143,7 +147,7 @@ const ProjectsSection = () => {
               <div className="relative grid grid-cols-1 sm:grid-cols-2">
                 {/* Double vertical divider */}
                 <div
-                  className="pointer-events-none absolute left-1/2 hidden -translate-x-[9px] sm:flex sm:gap-[16px]"
+                  className="pointer-events-none absolute left-1/2 hidden -translate-x-2.25 sm:flex sm:gap-4"
                   style={{ top: "-18px", bottom: "-18px" }}
                 >
                   <div className="h-full w-px bg-border"></div>
@@ -154,7 +158,7 @@ const ProjectsSection = () => {
 
                 {/* Double divider (mobile between cards) */}
                 {row[1] && (
-                  <div className="flex flex-col gap-[16px] sm:hidden">
+                  <div className="flex flex-col gap-4 sm:hidden">
                     <div className="h-px w-full bg-border"></div>
                     <div className="h-px w-full bg-border"></div>
                   </div>
@@ -169,7 +173,7 @@ const ProjectsSection = () => {
 
       {/* Show All Projects */}
       <div className="w-full">
-        <div className="flex w-full flex-col gap-[16px]">
+            <div className="flex w-full flex-col gap-4">
           <div className="h-px w-full bg-border"></div>
           <div className="h-px w-full bg-border"></div>
         </div>

@@ -3,7 +3,7 @@ import { AnimatePresence, motion } from "framer-motion";
 
 const WORDS = [
   "Hello",            
-  "Ciao",           
+  "Konnichiwa",           
   "Hola",                    
   "Bonjour"         
 ];

@@ -126,14 +126,14 @@ const ProjectDetailPage = () => {
           <div className="border-x border-border bg-bg-card py-8 sm:py-10">
             <div className="px-4 sm:px-8">
               <div
-                className={`relative aspect-video overflow-hidden rounded-2xl bg-gradient-to-br ${project.accent}`}
+                className={`relative aspect-video overflow-hidden rounded-2xl bg-linear-to-br ${project.accent}`}
               >
-                <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(255,255,255,0.65)_0,_transparent_55%)]"></div>
+                <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(255,255,255,0.65)_0,transparent_55%)]"></div>
                 {project.image && (
                   <img
                     src={project.image}
                     alt={project.title}
-                    className="h-full w-full object-cover"
+                    className="absolute inset-0 h-full w-full object-cover object-center block rounded-2xl"
                     onError={(e) => {
                       e.target.style.display = "none";
                     }}
@@ -247,7 +247,11 @@ const ProjectDetailPage = () => {
                       key={index}
                       className="flex items-center gap-2 rounded-lg border border-border bg-bg-secondary px-4 py-2"
                     >
-                      <img src={tech.icon} alt={tech.name} className="size-8" />
+                      <img
+                        src={tech.icon}
+                        alt={tech.name}
+                        className={`${tech.sizeClass ?? "size-8"} object-contain`}
+                      />
                       <span className="font-medium text-text-primary">
                         {tech.name}
                       </span>
@@ -348,6 +352,24 @@ const ProjectDetailPage = () => {
                   <p className="leading-7 text-text-secondary">
                     {project.description}
                   </p>
+                </section>
+              )}
+
+              {Array.isArray(project.highlights) && project.highlights.length > 0 && (
+                <section className="mt-12">
+                  <h2 className="mb-4 text-2xl font-bold text-text-primary">
+                    Project Highlights
+                  </h2>
+                  <ul className="space-y-3 text-text-secondary">
+                    {project.highlights.map((highlight) => (
+                      <li
+                        key={highlight}
+                        className="rounded-lg border border-border bg-bg-secondary px-4 py-3 leading-7"
+                      >
+                        {highlight}
+                      </li>
+                    ))}
+                  </ul>
                 </section>
               )}
             </div>

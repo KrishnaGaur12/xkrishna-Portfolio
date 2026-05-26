@@ -1,18 +1,21 @@
-@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap");
 @import "tailwindcss";
 
 /* ── Font Configuration ── */
+* {
+  font-family: "Manrope", sans-serif !important;
+}
+
 :root {
-  --font-display: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  --font-body: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  --color-bg-primary: #ffffff;
-  --color-bg-secondary: #f4f4f5;
+  --font-display: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --color-bg-primary: #f8f9fa;
+  --color-bg-secondary: #ffffff;
   --color-bg-card: #ffffff;
   --color-text-primary: #09090b;
   --color-text-secondary: #52525b;
   --color-text-muted: #71717a;
-  --color-border: rgba(23, 22, 22, 0.1);
-  --color-divider-pattern: rgba(0, 0, 0, 0.035);
+  --color-border: transparent;
+  --color-divider-pattern: transparent;
   --color-hover-bg: rgba(0, 0, 0, 0.04);
   --color-btn-bg: rgba(0, 0, 0, 0.05);
   --color-tag-bg: rgba(0, 0, 0, 0.06);

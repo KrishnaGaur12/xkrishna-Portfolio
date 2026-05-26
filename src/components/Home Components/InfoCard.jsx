@@ -5,11 +5,11 @@ const InfoCard = () => {
   const isOnlineInVSCode = false;
 
   return (
-    <section className="w-full border-b border-border">
+    <section className="w-full">
       <div className="mx-auto w-full max-w-4xl px-4 sm:px-6">
-        <div className="border-x border-border bg-bg-card">
+        <div className="bg-bg-card">
           <div className="grid grid-cols-[auto_1fr] items-stretch">
-            <div className="flex items-center border-r border-border p-3 sm:p-4">
+            <div className="flex items-center p-3 sm:p-4">
               <div className="group relative">
                 <img
                   src="/images/pfp.jpg"
@@ -40,7 +40,7 @@ const InfoCard = () => {
             </div>
 
             <div className="flex min-w-0 flex-col justify-center py-2 sm:py-3">
-              <div className="border-y border-border px-4 py-2 sm:px-5 sm:py-2.5">
+              <div className="px-4 py-2 sm:px-5 sm:py-2.5">
                 <div className="flex items-center gap-2">
                   <h2 className="font-display text-2xl font-bold tracking-tight text-text-primary sm:text-4xl">
                     Krishna Gaur

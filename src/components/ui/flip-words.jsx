@@ -25,7 +25,7 @@ export const FlipWords = ({ words = [], duration = 2200, className = "" }) => {
 
   return (
     <span
-      className={`inline-block min-w-[6ch] align-baseline font-semibold text-text-primary transition-all duration-200 ${
+      className={`inline-block min-w-[6ch] align-baseline text-text-primary transition-all duration-200 ${
         visible ? "translate-y-0 opacity-100" : "-translate-y-1 opacity-0"
       } ${className}`}
     >

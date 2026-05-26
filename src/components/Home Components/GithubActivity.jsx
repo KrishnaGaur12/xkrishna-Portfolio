@@ -151,10 +151,10 @@ const GithubActivity = () => {
   }, [data]);
 
   return (
-    <section className="w-full border-b border-white/10">
-      <div className="w-full border-b border-white/10">
+    <section className="w-full">
+      <div className="w-full">
         <div className="mx-auto w-full max-w-4xl px-4 sm:px-6">
-          <div className="border-x border-white/10 bg-zinc-950 px-4 py-6 sm:px-6">
+          <div className="bg-zinc-950 px-4 py-6 sm:px-6">
             <p className="text-xs uppercase tracking-[0.3em] text-zinc-400">
               Featured
             </p>
@@ -170,9 +170,9 @@ const GithubActivity = () => {
       </div>
 
       <div className="mx-auto w-full max-w-4xl px-4 sm:px-6">
-        <div className="border-x border-white/10 bg-zinc-950">
+        <div className="bg-zinc-950">
           <div className="px-4 pb-6 pt-6 sm:px-6">
-            <div className="rounded-2xl border border-white/10 bg-zinc-900/40 p-4 sm:p-6">
+            <div className="rounded-2xl bg-zinc-900/40 p-4 sm:p-6">
               {error ? (
                 <p className="text-sm text-rose-200">{error}</p>
               ) : (

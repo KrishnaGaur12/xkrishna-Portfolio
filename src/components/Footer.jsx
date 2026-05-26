@@ -1,7 +1,7 @@
 import { Github, Linkedin, Twitter, Mail } from "lucide-react";
 
 const Footer = () => {
-  const year = new Date().getFullYear();
+  const year = 2026;
 
   return (
     <footer className="w-full border-y border-border">
@@ -10,7 +10,7 @@ const Footer = () => {
           {/* Social links */}
           <div className="flex items-center justify-center gap-4 border-b border-border py-5">
             <a
-              href="https://github.com/takshpatel02"
+              href="https://github.com/KrishnaGaur12"
               target="_blank"
               rel="noopener noreferrer"
               className="rounded-full bg-btn-bg p-2.5 text-text-muted transition hover:bg-hover-bg hover:text-text-primary"
@@ -19,7 +19,7 @@ const Footer = () => {
               <Github className="h-4 w-4" />
             </a>
             <a
-              href="https://www.linkedin.com/in/taksh-patel20"
+              href="https://www.linkedin.com/in/gaurkrishna"
               target="_blank"
               rel="noopener noreferrer"
               className="rounded-full bg-btn-bg p-2.5 text-text-muted transition hover:bg-hover-bg hover:text-text-primary"
@@ -28,7 +28,7 @@ const Footer = () => {
               <Linkedin className="h-4 w-4" />
             </a>
             <a
-              href="https://twitter.com/takshpatel"
+              href="https://x.com/2m_next"
               target="_blank"
               rel="noopener noreferrer"
               className="rounded-full bg-btn-bg p-2.5 text-text-muted transition hover:bg-hover-bg hover:text-text-primary"
@@ -37,7 +37,7 @@ const Footer = () => {
               <Twitter className="h-4 w-4" />
             </a>
             <a
-              href="mailto:taksh@example.com"
+              href="mailto:krishnagaur0033@gmail.com"
               className="rounded-full bg-btn-bg p-2.5 text-text-muted transition hover:bg-hover-bg hover:text-text-primary"
               aria-label="Email"
             >
@@ -45,11 +45,12 @@ const Footer = () => {
             </a>
           </div>
 
-          {/* Copyright */}
-          <div className="py-4 text-center">
-            <p className="font-display text-xs font-semibold uppercase tracking-widest text-text-muted">
-              &copy; {year} Krishna Gaur. All rights reserved.
+          <div className="relative z-10 pb-16 pt-4 text-center">
+            <p className="font-display text-sm font-semibold text-text-primary">
+              From India 🇮🇳 to the World 🌍 • Crafting Scalable Digital Products
             </p>
+            <p className="mt-3 font-medium text-text-secondary">© 2026 Krishna Gaur</p>
+            <p className="mt-2 text-sm text-text-muted">Designed & Engineered by Krishna Gaur</p>
           </div>
         </div>
       </div>

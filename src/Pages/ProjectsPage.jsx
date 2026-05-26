@@ -30,7 +30,6 @@ const ProjectsPage = () => {
   const projectCounts = {
     all: projectsData.length,
     working: projectsData.filter((p) => p.status === "working").length,
-    building: projectsData.filter((p) => p.status === "building").length,
     filtered: filteredProjects.length,
   };
 

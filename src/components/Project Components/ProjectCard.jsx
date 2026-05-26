@@ -12,20 +12,20 @@ const ProjectCard = ({ project }) => {
       <Link to={`/project/${project.slug}`}>
         {/* Project Preview Image */}
         <motion.div
-          className={`relative aspect-[16/9] overflow-hidden rounded-2xl bg-gradient-to-br ${project.accent}`}
+          className={`relative aspect-video overflow-hidden rounded-2xl bg-linear-to-br ${project.accent}`}
           whileHover={{ scale: 1.02 }}
           transition={{ duration: 0.3 }}
         >
           {/* Optional: Add gradient overlay */}
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(255,255,255,0.65)_0,_transparent_55%)]"></div>
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(255,255,255,0.65)_0,transparent_55%)]"></div>
 
           {/* Preview mockup or image */}
           {project.image ? (
-            <img
-              src={project.image}
-              alt={project.title}
-              className="h-full w-full object-cover"
-            />
+              <img
+                src={project.image}
+                alt={project.title}
+                className="absolute inset-0 h-full w-full object-cover object-center block rounded-2xl"
+              />
           ) : (
             <div className="absolute bottom-4 left-4 rounded-xl bg-white/70 px-3 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-zinc-800">
               Preview
@@ -65,7 +65,7 @@ const ProjectCard = ({ project }) => {
       {/* Project Info */}
       <Link
         to={`/project/${project.slug}`}
-        className="mt-4 block flex-1 flex flex-col"
+        className="mt-4 flex flex-1 flex-col"
       >
         <div className="flex items-start justify-between gap-3">
           <h3 className="font-display text-lg font-bold text-text-primary transition group-hover:text-blue-400 sm:text-xl">
@@ -90,7 +90,11 @@ const ProjectCard = ({ project }) => {
                 title={tech.name}
               >
                 {tech.icon ? (
-                  <img src={tech.icon} className="size-8" alt={tech.name} />
+                  <img
+                    src={tech.icon}
+                    className={`${tech.sizeClass ?? "size-8"} object-contain`}
+                    alt={tech.name}
+                  />
                 ) : (
                   <span className="rounded bg-tag-bg px-2 py-1 text-xs text-tag-text">
                     {tech.name}
