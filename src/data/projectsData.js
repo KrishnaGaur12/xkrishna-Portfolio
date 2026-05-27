@@ -69,7 +69,7 @@ export const projectsData = [
         website: "",
         github: "",
         markdownUrl: "",
-        image: "public/images/trivia.png",
+        image: "/images/trivia.png",
     },
 
     {
@@ -92,7 +92,7 @@ export const projectsData = [
         website: "https://e-rakshasetu.netlify.app",
         github: "https://github.com/KrishnaGaur12/e-Raksha-Setu",
         markdownUrl: "",
-        image: "public/images/e-rakshasetu.png",
+        image: "/images/e-rakshasetu.png",
     },
 
     {
@@ -119,7 +119,7 @@ export const projectsData = [
         website: "",
         github: "https://github.com/KrishnaGaur12/JanSahayak-AI",
         markdownUrl: "",
-        image: "public/images/jans.png",
+        image: "/images/jans.png",
     },
 
     {
@@ -137,7 +137,7 @@ export const projectsData = [
         website: null,
         github: "https://github.com/KrishnaGaur12/BharatCare",
         markdownUrl: null,
-        image: "public/images/bharatcare.png",
+        image: "/images/bharatcare.png",
     },
 
     {
@@ -155,7 +155,7 @@ export const projectsData = [
         website: "",
         github: "https://github.com/KrishnaGaur12/ten-days-of-voice-agents-2025",
         markdownUrl: "",
-        image: "public/images/10daysai.png",
+        image: "/images/10daysai.png",
     },
 
     {
@@ -206,6 +206,6 @@ export const projectsData = [
         github: "https://github.com/KrishnaGaur12/GTA6styleResume",
         markdownUrl:
             "https://res.cloudinary.com/portfolioblog/raw/upload/v1771481946/gta_tx8jzx.md",
-        image: "public/images/gta6theme.png",
+        image: "/images/gta6theme.png",
     },
 ];
