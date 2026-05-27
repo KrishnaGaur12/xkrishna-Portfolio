@@ -69,7 +69,7 @@ export const projectsData = [
         website: "",
         github: "",
         markdownUrl: "",
-        image: "/images/trivia.png",
+        image: "public/images/trivia.png",
     },
 
     {
@@ -92,7 +92,7 @@ export const projectsData = [
         website: "https://e-rakshasetu.netlify.app",
         github: "https://github.com/KrishnaGaur12/e-Raksha-Setu",
         markdownUrl: "",
-        image: "/images/e-rakshasetu.png",
+        image: "public/images/e-rakshasetu.png",
     },
 
     {
