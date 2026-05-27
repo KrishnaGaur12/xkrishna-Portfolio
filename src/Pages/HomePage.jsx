@@ -53,11 +53,18 @@ const HomePage = () => {
 
       <div className="flex flex-row justify-between items-center mb-14">
         <div className="flex items-center gap-6">
-          <img
-            src="/images/pfp.jpg"
-            alt="Krishna Gaur"
-            className="h-20 w-20 sm:h-[120px] sm:w-[120px] rounded-[16px] object-cover border-[3px] border-black shrink-0"
-          />
+          <div className="relative shrink-0">
+            <img
+              src="/images/pfp.jpg"
+              alt="Krishna Gaur"
+              className="h-20 w-20 sm:h-[120px] sm:w-[120px] rounded-[16px] object-cover border-[3px] border-black"
+            />
+            <img
+              src="/images/indiaflag.png"
+              alt="India flag sticker"
+              className="absolute -left-2 -top-2 h-6 w-9 sm:h-7 sm:w-10 rotate-[-12deg] rounded-sm border border-white/80 bg-white object-cover shadow-[0_8px_20px_-10px_rgba(0,0,0,0.6)]"
+            />
+          </div>
           <div className="flex flex-col justify-center">
             <h1 className="text-[36px] sm:text-[48px] font-thin tracking-tighter text-black leading-none mb-1" style={{ fontWeight: 200, letterSpacing: '-0.06em' }}>
               krishna gaur

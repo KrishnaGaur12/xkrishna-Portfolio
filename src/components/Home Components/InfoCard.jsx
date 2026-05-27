@@ -12,6 +12,11 @@ const InfoCard = () => {
             <div className="flex items-center p-3 sm:p-4">
               <div className="group relative">
                 <img
+                  src="/images/indiaflag.png"
+                  alt="India flag sticker"
+                  className="absolute -left-2 -top-2 z-20 h-5 w-8 -rotate-12 rounded-sm border border-white/80 bg-white object-cover shadow-[0_8px_20px_-10px_rgba(0,0,0,0.6)] sm:h-6 sm:w-9"
+                />
+                <img
                   src="/images/pfp.jpg"
                   alt="Krishna Gaur"
                   className="h-24 w-24 shrink-0 rounded-full border border-border object-cover sm:h-36 sm:w-36"
