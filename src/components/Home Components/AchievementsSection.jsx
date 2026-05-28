@@ -16,7 +16,7 @@ const achievements = [
   {
     id: 3,
     title: "Paranox 2.0",
-    subtitle: "Top 40 Finalist",
+    subtitle: "Finalist",
     description: "Selected from 20,000+ national participants (2025).",
     stat: "#40",
   },
