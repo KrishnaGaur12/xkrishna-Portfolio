@@ -7,13 +7,13 @@ const Navbar = () => {
         <nav className="flex items-center justify-center gap-10 sm:gap-14 text-xl sm:text-[22px] font-light text-black">
           <NavLink
             to="/"
-            className="transition-all leading-none decoration-[1.5px] underline-offset-[8px] text-black hover:text-[#b31942] hover:underline"
+            className="transition-all leading-none decoration-[1.5px] underline-offset-8 text-black hover:text-[#b31942] hover:underline"
           >
             home
           </NavLink>
           <NavLink
             to="/project"
-            className="transition-all leading-none decoration-[1.5px] underline-offset-[8px] text-black hover:text-[#b31942] hover:underline"
+            className="transition-all leading-none decoration-[1.5px] underline-offset-8 text-black hover:text-[#b31942] hover:underline"
           >
             projects
           </NavLink>
@@ -21,7 +21,7 @@ const Navbar = () => {
             href="/resumesde.pdf"
             target="_blank"
             rel="noopener noreferrer"
-            className="transition-all leading-none decoration-[1.5px] underline-offset-[8px] text-black hover:text-[#b31942] hover:underline"
+            className="transition-all leading-none decoration-[1.5px] underline-offset-8 text-black hover:text-[#b31942] hover:underline"
           >
             resume
           </a>
